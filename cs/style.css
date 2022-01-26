@@ -1,0 +1,31 @@
+.h-50{height: 50px !important;}
+.p-size{font-size: 140px;}
+
+@media screen and (max-width: 700px)
+{
+    .menu-position
+
+    {
+        position: relative;
+        bottom: 50px;
+        left: 450px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .menu-position
+
+    {
+        position: relative;
+        bottom: 50px;
+        left: 390px;
+    }
+    .right-position{
+    float: none!important;
+    margin-left: 35%;
+     }
+    .left-position{
+        margin-left: 10%;
+    }
+}
